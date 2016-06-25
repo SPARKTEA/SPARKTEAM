@@ -1,6 +1,6 @@
-# [MastersDev](https://telegram.me/MastersDev)
+# [SPARKSTEAM1](https://github.com/SPARKTEA/SPARKTEAM)
 
-[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/MastersDev/MastersDevelpers.svg)](https://gitter.im/MastersDev/MastersDevelpers?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SPARKSTEAM/SPARKSTEAM1lpers.svg)](https://gitter.im/MastersDev/MastersDevelpers?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 **An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot)**.
 # Features
@@ -43,7 +43,7 @@ sudo apt-get upgrade
 redis-server
 
 # Let's install the bot.
-git clone https://github.com/Masterdev2v/MEero.git
+git clone https://github.com/SPARKTEA/SPARKTEAM.git
 cd MEero
 chmod +x launch.sh
 ./launch.sh install
@@ -88,7 +88,7 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 ##### It was built on a platform TeleSeed after it has been modified.🔧🌐
 
 # Developer🔰
-### [@iDev1](https://telegram.me/iDev1)
+### [@SPARKSTEAM1](https://telegram.me/SPARKSTEAM1)
 
 # Special thanks to😋❤️
 
@@ -103,5 +103,3 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 #### [@MouamleAPI](https://telegram.me/MouamleAPI)🌚🔩
 #### [@Malvoo](https://telegram.me/MastersDev)🌚🔧
  
-# My YouTube Channel
-#### [YouTube](https://www.youtube.com/channel/UCKsJSbVGNGyVYvV5B2LrUkA)
