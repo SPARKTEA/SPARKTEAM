@@ -883,7 +883,7 @@ function kick_user_any(user_id, chat_id)
   local chat = 'chat#id'..chat_id
   local user = 'user#id'..user_id
   chat_del_user(chat, user, ok_cb, true)
-  channel_kick_user(channel, user, ok_cb, false)
+  channel_kick(channel, user, ok_cb, false)
 end
 
 -- Returns the name of the sender
@@ -898,7 +898,7 @@ function kick_user(user_id, chat_id)
   local chat = 'chat#id'..chat_id
   local user = 'user#id'..user_id
   chat_del_user(chat, user, ok_cb, false)
-  channel_kick_user(channel, user, ok_cb, false)
+  channel_kick(channel, user, ok_cb, false)
 end
 
 -- Ban
@@ -1146,7 +1146,7 @@ function Kick_by_reply(extra, success, result)
 		return "you can't kick mods,owner and admins"
 	end
 		chat_del_user(chat, 'user#id'..result.from.peer_id, ok_cb, false)
-		channel_kick_user(channel, 'user#id'..result.from.peer_id, ok_cb, false)
+		channel_kick(channel, 'user#id'..result.from.peer_id, ok_cb, false)
 	else
 		return
   end
@@ -1168,7 +1168,7 @@ function Kick_by_reply_admins(extra, success, result)
 		return
 	end
 		chat_del_user(chat, 'user#id'..result.from.peer_id, ok_cb, false)
-		channel_kick_user(channel, 'user#id'..result.from.peer_id, ok_cb, false)
+		channel_kick(channel, 'user#id'..result.from.peer_id, ok_cb, false)
 	else
 		return
 	end
