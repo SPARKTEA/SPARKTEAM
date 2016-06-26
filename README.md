@@ -44,7 +44,7 @@ redis-server
 
 # Let's install the bot.
 git clone https://github.com/SPARKTEA/SPARKTEAM.git
-cd MEero
+cd SPARKTEAM
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
